@@ -1,0 +1,36 @@
+{
+  "name": "consulta-sifen",
+  "version": "1.0.0",
+  "description": "Consulta a la SET por CDC.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veronica-fi/consulta-sifen.git"
+  },
+  "keywords": [
+    "sifen",
+    "cdc",
+    "set",
+    "documento"
+  ],
+  "author": "Verónica Domínguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronica-fi/consulta-sifen/issues"
+  },
+  "homepage": "https://github.com/veronica-fi/consulta-sifen#readme",
+  "dependencies": {
+    "@fintechinnovaciondev/fi-utils": "^1.3.5",
+    "@fintechinnovaciondev/paragon-common": "^0.9.1",
+    "dotenv": "^16.3.1",
+    "facturacionelectronicapy-setapi": "^1.0.28",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.2.0",
+    "nodemon": "^3.0.1"
+  }
+}
